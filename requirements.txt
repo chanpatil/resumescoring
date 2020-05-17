@@ -22,7 +22,7 @@ defusedxml==0.6.0
 docutils==0.15.2
 docx2txt==0.8
 EbookLib==0.17.1
-en-core-web-sm==2.2.5
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz#egg=en_core_web_sm
 entrypoints==0.3
 extract-msg==0.23.1
 Flask==1.1.1
