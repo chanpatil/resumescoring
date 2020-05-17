@@ -106,6 +106,7 @@ pyOpenSSL==19.1.0
 pypandoc==1.5
 pyparsing==2.4.6
 PyPDF2==1.26.0
+pypiwin32==223
 pyresparser==1.0.6
 pyrsistent==0.15.7
 pysftp==0.2.9
