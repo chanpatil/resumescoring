@@ -10,7 +10,7 @@ from os.path import isfile, join
 from io import StringIO
 import pandas as pd
 from collections import Counter
-import win32com.client
+#import win32com.client
 
 import spacy
 import docx2txt
