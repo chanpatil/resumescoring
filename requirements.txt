@@ -42,6 +42,7 @@ Flask-HTTPAuth==4.0.0
 Flask-RESTful==0.3.8
 future==0.18.2
 geotext==0.4.0
+gunicorn==19.6.0
 hyperlink==19.0.0
 idna==2.9
 imagesize==1.2.0
