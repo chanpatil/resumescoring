@@ -8,6 +8,8 @@ Created on Tue May 12 17:57:14 2020
 import os, os.path
 import json
 
+import nltk
+nltk.download("stopwords")
 
 from flask import Flask, request, jsonify 
 from flask import Response
