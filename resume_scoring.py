@@ -11,7 +11,7 @@ import docx2txt
 #import en_core_web_sm
 #nlp = en_core_web_sm.load()
 
-import nltk
+#import nltk
 #from nltk import Tree
 #nltk.download("popular")
 from nltk.tokenize import sent_tokenize
