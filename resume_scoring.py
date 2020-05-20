@@ -13,7 +13,7 @@ import docx2txt
 
 import nltk
 #from nltk import Tree
-nltk.download("popular" ,"../ResumeScoring/nltk_data")
+nltk.download("popular" ,"../mtresumescoringapplication/nltk_data")
 from nltk.tokenize import sent_tokenize
 from pyresparser import ResumeParser
 #from nltk import word_tokenize, pos_tag, ne_chunk
