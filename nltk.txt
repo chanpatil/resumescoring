@@ -1,1 +1,2 @@
-wordnet
+popular
+93mcorpora
