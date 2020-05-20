@@ -62,7 +62,7 @@ def job_description_creator(jobReqId):
     
     # Write HTML String to file.html
     tempfile = cf.tempPath + "testingfile.html"
-    with open(tempfile, "w") as file:
+    with open(tempfile, "w+") as file:
         file.write(html_content)
 
     JDpath = cf.path +"/jd_" + str(jobReqId) +".docx" 
@@ -102,7 +102,7 @@ def resume_saving(final_URL, jobReqId, newAppID):
             
             #file_name = "filename.docx"
             
-            f = open(file_name, 'wb')
+            f = open(file_name, 'w+')
             f.write(decoded_val)
             f.close()
             #print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
