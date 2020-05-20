@@ -18,9 +18,9 @@ resume_api = "https://apisalesdemo2.successfactors.eu/odata/v2/JobApplication(31
 jobdesc_api = "https://apisalesdemo2.successfactors.eu/odata/v2//JobRequisition('2942')?$format=json&$expand=jobReqLocale"
 
 #path ="D:/Final Resume Scoring/FinalResumeReaderApplication/word"
-path = "../resumescoring/word/"
+path = "../app/word/"
 
-tempPath = "../resumescoring/temp/"
+tempPath = "../app/temp/"
 
 #creds
 creds = {
