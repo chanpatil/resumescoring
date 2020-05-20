@@ -122,8 +122,9 @@ def rank_resume():
             for root, dirs, files in os.walk(cf.tempPath):
                 for file in files:
                     os.remove(os.path.join(root, file))
-                    
-                    
+            
+            cwd = os.getcwd()
+            print("*******************Current Working Directory*************** :",cwd)        
             content = request.json
             if not content:
                 temp = {"204" :"No Content"}
