@@ -19,3 +19,8 @@ jobdesc_api = "https://apisalesdemo2.successfactors.eu/odata/v2//JobRequisition(
 path = "../Final_Resume_Scoring/word/"
 
 tempPath = "../Final_Resume_Scoring/temp/"
+
+#creds
+creds = {
+        "MouriTech": generate_password_hash("MouriTech^()@0198")
+        }
