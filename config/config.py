@@ -5,6 +5,8 @@ Created on Mon May 11 15:07:45 2020
 @author: Chanabasagoudap
 """
 
+from werkzeug.security import generate_password_hash
+
 # HTTP Basic Authentication
 username = 'sfadmin@SFPART035062'
 password = 'Test@123'
