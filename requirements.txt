@@ -37,7 +37,7 @@ exception==0.1.0
 flake8==3.7.9
 Flask==1.1.1
 Flask-Bootstrap==3.3.7.1
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 Flask-HTTPAuth==4.0.0
 Flask-RESTful==0.3.8
 future==0.18.2
